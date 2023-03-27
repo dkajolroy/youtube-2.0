@@ -40,26 +40,26 @@ export default function Header() {
               placeholder="Search..."
               onKeyUp={(e) => searchHandler(e.key)}
             />
-            <button className="bg-slate-300  hover:bg-slate-400 rounded-r-full px-5">
+            <button className="bg-slate-300  hover:bg-slate-400 cursor-pointer rounded-r-full px-5">
               Search
             </button>
           </div>
         </div>
         <div className="items-center flex justify-between">
           <div className="microphone">
-            <MicrophoneIcon className="w-7 h-7 mx-1 active:bg-slate-300 transition-all p-1 rounded-full" />
+            <MicrophoneIcon className="w-7 h-7 cursor-pointer mx-1 active:bg-slate-300 transition-all p-1 rounded-full" />
           </div>
           <div className="acc-group flex items-center gap-5">
             <FiVideo
-              className="active:bg-slate-300 transition-all p-1 rounded-full"
+              className="active:bg-slate-300 cursor-pointer transition-all p-1 rounded-full"
               size={28}
             />
             <IoNotificationsOutline
-              className="active:bg-slate-300 transition-all p-1 rounded-full"
+              className="active:bg-slate-300 transition-all p-1 cursor-pointer rounded-full"
               size={28}
             />
             <FiUser
-              className="active:bg-slate-300 transition-all p-1 rounded-full"
+              className="active:bg-slate-300 cursor-pointer transition-all p-1 rounded-full"
               size={28}
             />
           </div>
